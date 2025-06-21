@@ -17,7 +17,7 @@ public class AccountTrigger2Handler {
                     opp.StageName='Closed Lost';
                     opp.CloseDate=System.today();
                     OppToUpdated.add(opp);
-                    system.debug("Hello");
+                    system.debug("Helo");
                 }
             }
         }
